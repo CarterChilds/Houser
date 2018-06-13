@@ -1,0 +1,223 @@
+.root {
+    width: 100%;
+    min-height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.Wizard__router_container, .Wizard__step_container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.Wizard__router_container {
+    width: 100%;
+    height: 100%;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.Wizard__step_container {
+    width: 50%;
+    min-height: 900px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 75px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#e2f3ea),to(#fff));
+    background-image: -webkit-linear-gradient(top,#e2f3ea,#fff);
+    background-image: -o-linear-gradient(top,#e2f3ea,#fff);
+    background-image: linear-gradient(180deg,#e2f3ea,#fff);
+    padding: 20px;
+    min-width: 759px;
+}
+.Wizard__router_container, .Wizard__step_container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.Wizard__stepHeader_container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.Wizard__stepHighlight_container {
+    width: 70%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.StepHighlight__container {
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Wizard__stepHeader_span {
+    font-size: 25px;
+}
+
+.open-sans-bold {
+    font-weight: 700;
+}
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.Wizard__stepHeader_btn {
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.open-sans-bold {
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+    text-decoration: none;
+    
+
+    
+}
+.pink_bgc {
+    background-color: #fec2c2;
+    border: none;
+    text-decoration: none;
+    color: black
+}
+
+.Step__container {
+    width: 100%;
+    height: 500px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.Step1__name_container {
+    width: 70%;
+    margin-bottom: 3px;
+}
+.Step__input_header {
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+
+.open-sans-bold {
+    font-weight: 700;
+}
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.Step__input {
+    border-radius: 2px;
+    font-size: 15px;
+    width: 70%;
+}
+
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+.open-sans {
+    font-weight: 400;
+}
+.dark_green_border {
+    border: 1px solid #519872;
+    outline: none;
+}
+.Step1__name_container {
+    width: 70%;
+    margin-bottom: 3px;
+    display: flex
+}
+
+.Step1__description_container {
+    width: 70%;
+    margin-bottom: 3px;
+    margin-top: 15px;
+    display: flex;
+    position: relative;
+}
+
+.Step__input {
+    border-radius: 2px;
+    font-size: 15px;
+    width: 70%;
+}
+.Step1__description_input {
+    height: 100px;
+    resize: none;
+}
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.open-sans {
+    font-weight: 400;
+}
+.dark_green_border {
+    border: 1px solid #519872;
+    outline: none;
+}
+
+.Step1__btn_container {
+    margin-top: 50px;
+    display: -ms-flexbox;
+    display: flex;
+    width: 70%;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.Step__btn_next, .Step__btn_previous {
+    color: #fff;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    border-radius: 3px;
+}
+
+.darkest_green_bgc {
+    background-color: #3b5249;
+}
+.step1{
+    font-size: 20px
+}
+
+.link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+

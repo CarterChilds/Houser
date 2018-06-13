@@ -1,0 +1,86 @@
+.root {
+    width: 100%;
+    min-height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #afd4c0
+}
+
+.login-container {
+    width: 50%;
+    height: 100vh;
+    min-height: 850px;
+    min-width: 850px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: white;
+}
+
+.username-input{
+    font-size: 25px;
+    width: 70%;
+    margin-bottom: 25px;
+}
+
+.dark-green-border {
+    border: 1px solid #519872;
+    outline: none;
+}
+
+.password-input {
+    font-size: 25px;
+    width: 70%;
+    margin-bottom: 25px;
+
+}
+.button-container {
+    display: block;
+}
+
+.login-button, .register-button {
+    border: none;
+    width: 130px;
+    height: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 10px
+
+}
+
+.open-sans-bold {
+    font-weight: 700;
+}
+
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+lightest_green_bgc {
+    background-color: #8aea92;
+}
+
+.darkest_green_bgc {
+    background-color: #3b5249;
+    color: white;
+}
+
+.login-button {
+    background-color: #8aea92;
+}
+
+.password-tag, .username-tag {
+    font-size: 20px;
+    margin-bottom: 3px;
+    position: relative;
+    left: -27%;
+    font-weight: bold;
+}

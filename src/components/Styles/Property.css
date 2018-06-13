@@ -1,0 +1,67 @@
+.Dashboard__property_container {
+    width: 710px;
+    height: 130px;
+    flex-direction: column;
+    background: lightgrey;
+    margin-bottom: 20px;
+  }
+  .Property__container {
+      border: none;
+      height: 150px;
+      width: 98%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      border-radius: 3px;
+      display: flex;
+      -ms-flex: 1 1 0%;
+      flex: 1 1 0%;
+  }
+  .Property__img_container {
+    height: 130px;
+    width: 150px;
+  }
+  .Property__img {
+    height: 100%;
+    width: 100%;
+  }
+  .Property__dd_container {
+      width: calc(100% - 150px);
+      height: 100%;
+      display: flex;
+  }
+  .Property__description_parent {
+      width: 50%;
+      padding: 10px;
+  }
+  .Property__description_child {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding-right: 10px;
+  }
+  .Property__detail_parent {
+      width: 50%;
+      padding: 10px;
+      padding-left: 0;
+      position: relative;
+  }
+  .Propety__detail_child{
+      width: 97%;
+      padding-right: 10px;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      overflow: auto;
+      border-left: 1px solid #000;
+      padding-left: 10px;
+  }
+  .delete{
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      font-size: 12px;
+      cursor: pointer;
+  }

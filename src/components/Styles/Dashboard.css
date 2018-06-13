@@ -1,0 +1,237 @@
+.root {
+    width: 100%;
+    min-height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #afd4c0
+}
+
+.Dashboard__container{
+    width: 50%;
+    min-height: 900px;
+    height: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 75px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#e2f3ea),to(#fff));
+    background-image: -webkit-linear-gradient(top,#e2f3ea,#fff);
+    background-image: -o-linear-gradient(top,#e2f3ea,#fff);
+    background-image: linear-gradient(180deg,#e2f3ea,#fff);
+    padding: 20px;
+    min-width: 759px;
+}
+
+.Header__child, .Header__parent {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.Header__parent {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.dark_green_bgc {
+    background-color: #519872;
+}
+
+.Header__left_span {
+    color: #fff;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.open-sans-bold {
+    font-weight: 700;
+}
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.Header__child {
+    width: 50%;
+    min-width: 759px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.Header__child, .Header__parent {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.Header__right_span {
+    color: #fff;
+    cursor: pointer;
+}
+
+.open-sans-bold {
+    font-weight: 700;
+}
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.Dashboard__button_new {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.open-sans-bold {
+    font-weight: 700;
+}
+
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+.lightest_green_bgc {
+    background-color: #8aea92;
+}
+
+
+element.style {
+}
+.Filter__container {
+    width: 100%;
+    height: 80px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+.Filter__description {
+    font-size: 20px;
+}
+
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.open-sans {
+    font-weight: 400;
+}
+
+.Filter__btn, .Filter__input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.Filter__input {
+    width: 85px;
+    padding: 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.open-sans {
+    font-weight: 400;
+}
+
+.dark_green_border {
+    border: 1px solid #519872;
+    outline: none;
+}
+
+.Filter__btn {
+    border: none;
+    padding: 7px;
+    width: 70px;
+    cursor: pointer;
+    margin: 10px
+}
+
+.Filter__btn, .Filter__input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.open-sans {
+    font-weight: 400;
+}
+
+.lightest_green_bgc {
+    background-color: #8aea92;
+}
+
+.Filter__btn, .Filter__input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.open-sans {
+    font-weight: 400;
+}
+
+.darkest_green_bgc {
+    background-color: #3b5249;
+}
+
+.open-sans-bold {
+    font-weight: 700;
+}
+.Dashboard__homeSpan_container {
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.open-sans, .open-sans-bold {
+    font-family: Open Sans,sans-serif;
+}
+
+.Dashboard__properties_container {
+    width: 100%;
+    height: 74%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
