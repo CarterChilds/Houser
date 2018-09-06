@@ -55,7 +55,7 @@ export default class Login extends Component {
           <input
             className="password-input dark-green-border"
             type="password"
-            value={this.state.password}
+            value={this.state.password} 
             onChange={e => this.handleChange("password", e.target.value)}
           />
           <div className="button-container">

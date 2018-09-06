@@ -26,7 +26,7 @@ app.use(
 
 //endpoints
 app.post('/api/register', controller.registerUser)
-app.post('/api/login', controller.loginUser)
+app.post('/api/login', controller.loginUser) 
 app.get('/checkifloggedin', checkIfLoggedIn)
 app.post('/api/addProperty', controller.addProperty)
 app.get('/api/getProperties', controller.getProducts)

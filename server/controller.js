@@ -65,7 +65,7 @@ module.exports = {
       .then(response => {
         res.status(200).send(response);
       })
-      .catch(err => {
+      .catch(err => { 
         res.status(500).send(err);
       });
     console.log("property added");
